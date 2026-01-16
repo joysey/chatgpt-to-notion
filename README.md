@@ -1,16 +1,21 @@
 # ChatGPT to Notion
 
-A powerful Chrome extension that seamlessly saves your ChatGPT conversations to Notion, helping you build a searchable knowledge base of your AI interactions.
+Save, export, sync, and back up your ChatGPT conversations to Notion with ease. This extension helps you organize, archive, and preserve your AI interactions (including ChatGPT Group Chats) directly in your Notion workspace.
 
 ## ✨ Features
 
-- **One-click Save**: Instantly save any ChatGPT conversation to your Notion database
-- **Batch Sync**: Save multiple conversations at once with customizable page ranges
-- **Smart Organization**: Automatically structures your chats with proper formatting
-- **Flexible Options**: Choose to skip, overwrite, or duplicate existing conversations
-- **Team Support**: Works seamlessly with both personal and team ChatGPT accounts
-- **Project Sync**: Sync entire ChatGPT projects with all their conversations
-- **Beautiful UI**: Modern and intuitive interface for a smooth user experience
+- **One-click Export**: Instantly export any ChatGPT conversation to your Notion database
+- **Auto Sync**: Schedule automatic sync of your latest conversations to Notion (1-24 hour intervals)
+- **Group Chats Export**: Export full history from ChatGPT Group Chats (`/gg/` pages) to Notion
+- **Selective Export**: Save only specific Q&A turns or group chat messages you need
+- **Batch Sync & Backup**: Sync multiple chats in bulk to build a durable backup in Notion
+- **Smart Formatting**: Preserves structure (Markdown, code blocks, images, lists)
+- **Flexible Options**: Skip, overwrite, or duplicate existing pages
+- **Project Sync**: Export entire ChatGPT projects into Notion
+- **Deep Researcher Support**: Export ChatGPT Deep Researcher documents with full formatting
+- **TextDocs Integration**: Export TextDocs tool documents as sub-pages in Notion
+- **Team Support**: Works with both personal and team ChatGPT accounts
+- **Clean UI**: Modern interface with floating actions and inline controls
 
 ## 🎯 Perfect For
 
@@ -18,14 +23,16 @@ A powerful Chrome extension that seamlessly saves your ChatGPT conversations to 
 - Students organizing study materials
 - Professionals documenting work discussions
 - Teams collaborating on AI projects
+- Teams using ChatGPT Group Chats for brainstorming
 - Anyone wanting to build a searchable knowledge base
+- Anyone who needs a reliable backup of ChatGPT content
 
 ## 📝 How to Use
 
-1. Connect your Notion account
-2. Select your target database
-3. Choose your save preferences
-4. Start saving your conversations!
+1. Connect your Notion account (OAuth)
+2. Select your target Notion database
+3. Choose preferences (skip/overwrite/duplicate)
+4. Export full chats, select specific turns, or enable Auto Sync
 
 ## 🔗 Important Links
 
