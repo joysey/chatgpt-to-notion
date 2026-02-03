@@ -1,0 +1,53 @@
+name: Product Issue / Feature Request
+description: Report a bug or suggest a feature (screenshots supported)
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: product_type
+    attributes:
+      label: Product Type
+      description: Select the product related to your issue or request
+      options:
+        - ChatGPT to Notion
+        - ChatGPT to Obsidian
+        - Perplexity to Notion
+        - Perplexity to Obsidian
+        - Gemini to Notion
+        - Gemini to Obsidian
+        - ClaudeAI to Notion
+        - ClaudeAI to Obsidian
+        - Grok to Notion
+        - Grok to Obsidian
+        - Deepseek to Notion
+        - Deepseek to Obsidian
+        - Others
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        - If this is a **bug**, please describe the issue in detail
+        - If this is a **feature request**, please describe your use case and expectations
+      placeholder: |
+        Example:
+        1. Use case:
+        2. Current behavior:
+        3. Expected behavior:
+    validations:
+      required: true
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Screenshots / Images
+      description: |
+        If applicable, paste or drag & drop screenshots here.
+        GitHub will upload and display them automatically.
+      placeholder: |
+        👉 You can paste images directly (Ctrl / Cmd + V)
+    validations:
+      required: false
